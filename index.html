@@ -300,6 +300,15 @@ details .ans{padding:0 22px 20px; color:var(--ink-2); font-size:.97rem}
 .socials{display:flex; gap:10px; flex-wrap:wrap; margin-top:18px}
 .socials a{width:46px;height:46px;border-radius:13px;background:#fff;border:1px solid var(--line);display:grid;place-items:center;color:var(--green-800);transition:.25s}
 .socials a:hover{background:var(--green-800); color:#fff; transform:translateY(-3px)}
+
+/* ---- QR কার্ড (স্ক্যান করে সাইটে আসুন) ---- */
+.qr-card{display:flex; gap:16px; align-items:center; margin-top:20px; background:var(--card);
+  border:1px solid var(--line); border-radius:var(--radius-sm); padding:14px 16px; box-shadow:var(--shadow-sm)}
+.qr-card img{width:112px; height:112px; flex:none; border:1px solid var(--line); border-radius:10px;
+  background:#fff; padding:6px; image-rendering:pixelated}
+.qr-card b{display:block; color:var(--green-800); font-family:var(--font-body); font-size:1.02rem}
+.qr-card span{display:block; font-size:.87rem; color:var(--muted); margin-top:4px; line-height:1.6}
+@media (max-width:430px){ .qr-card{flex-direction:column; text-align:center; gap:12px} }
 footer{background:var(--green-900); color:#b7d6d0; padding:56px 0 26px; font-size:.94rem}
 footer h4{color:#fff; font-size:1rem; font-family:var(--font-body); margin-bottom:14px}
 footer a{color:#cfe8e3}
@@ -353,7 +362,6 @@ footer ul{list-style:none; padding:0; margin:0; display:grid; gap:9px}
       <a href="#about">আমরা কারা</a>
       <a href="#activities">কার্যক্রম</a>
       <a href="#impact">আমাদের কাজ</a>
-      <a href="#gallery">গ্যালারি</a>
       <a href="#transparency">স্বচ্ছতা</a>
       <a href="#join">সদস্য হোন</a>
       <a href="#contact">যোগাযোগ</a>
@@ -598,30 +606,8 @@ footer ul{list-style:none; padding:0; margin:0; display:grid; gap:9px}
     </div>
   </div>
 </section>
-<!-- ===================== GALLERY ===================== -->
-<section id="gallery" aria-labelledby="gal-title">
-  <div class="wrap">
-    <div class="center reveal" style="max-width:720px;margin:0 auto 40px">
-      <span class="eyebrow">গ্যালারি</span>
-      <h2 id="gal-title">মাঠের ছবি, মাঠের গল্প</h2>
-      <p class="lead">মাঠের কাজের ছবিগুলো এখানে যুক্ত হবে। (ছবি বসানোর নিয়ম README-তে দেওয়া আছে।)</p>
-    </div>
-    <div class="gal">
-      <div class="shot reveal"><span>📷<br />সচেতনতা প্রচার কার্যক্রম<br /><small>(gallery/06.jpg)</small></span></div>
-      <div class="shot reveal"><span>📷<br />শীতবস্ত্র বিতরণের ছবি<br /><small>(gallery/02.jpg)</small></span></div>
-      <div class="shot reveal"><span>📷<br />মেডিকেল ক্যাম্পের ছবি<br /><small>(gallery/03.jpg)</small></span></div>
-      <div class="shot reveal"><span>📷<br />শিক্ষা উপকরণ বিতরণ<br /><small>(gallery/04.jpg)</small></span></div>
-      <div class="shot reveal"><span>📷<br />রক্তদান ক্যাম্পেইন<br /><small>(gallery/05.jpg)</small></span></div>
-      <div class="shot reveal"><span>📷<br />বৃক্ষরোপণ কর্মসূচি<br /><small>(gallery/06.jpg)</small></span></div>
-    </div>
-    <div class="center" style="margin-top:30px">
-      <a class="btn btn-ghost" href="https://www.facebook.com/taqwatouchfoundation" target="_blank" rel="noopener">আরও ছবি দেখুন ফেসবুক পেজে →</a>
-    </div>
-  </div>
-</section>
-
 <!-- ===================== TRANSPARENCY ===================== -->
-<section id="transparency" class="section-alt" aria-labelledby="tr-title">
+<section id="transparency" aria-labelledby="tr-title">
   <div class="wrap">
     <div class="split">
       <div class="reveal">
@@ -671,7 +657,7 @@ footer ul{list-style:none; padding:0; margin:0; display:grid; gap:9px}
         <div class="row2">
           <div class="field">
             <label for="name">আপনার নাম <span style="color:#c0392b">*</span></label>
-            <input id="name" name="name" type="text" placeholder="যেমন: আব্দুল্লাহ আল নোমান" required />
+            <input id="name" name="name" type="text" placeholder="" required />
           </div>
           <div class="field">
             <label for="phone">মোবাইল নম্বর <span style="color:#c0392b">*</span></label>
@@ -860,6 +846,15 @@ footer ul{list-style:none; padding:0; margin:0; display:grid; gap:9px}
         <a href="https://www.instagram.com/taqwatouch" target="_blank" rel="noopener" aria-label="Instagram">◎</a>
         <a href="https://wa.me/8801607215421" target="_blank" rel="noopener" aria-label="WhatsApp">✆</a>
         <a href="mailto:taqwatouchfoundation@gmail.com" aria-label="ই-মেইল">✉</a>
+      </div>
+
+      <div class="qr-card reveal">
+        <img src="assets/qr-site.png" alt="তাকওয়া টাচ ফাউন্ডেশনের ওয়েবসাইটের QR কোড" width="112" height="112" loading="lazy" />
+        <div>
+          <b>QR স্ক্যান করুন 🌿</b>
+          <span>ফোনের ক্যামেরা দিয়ে স্ক্যান করলেই আমাদের সাইটটি খুলে যাবে। প্রিন্ট করে দোকান, মসজিদ,
+            স্কুলের নোটিশ বোর্ডে টাঙিয়ে দিলে এলাকার মানুষ সহজেই আমাদের খুঁজে পাবে ইনশাআল্লাহ।</span>
+        </div>
       </div>
     </div>
 
