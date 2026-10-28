@@ -111,7 +111,7 @@ def poster_join(path):
         d.ellipse([pad + 34, yy - 17, pad + 68, yy + 17], fill=MINT)
         draw_check(d, pad + 51, yy, 30, TEAL, 5)
         d.text((pad + 88, yy), it, font=font(S, 33), fill=DARK, anchor="lm")
-    footer_bar(img, d, W, H, pad, ["আমাদের সাথে যুক্ত হোন", "সদস্য নিবন্ধন ফর্ম ওয়েবসাইটে"])
+    footer_bar(img, d, W, H, pad, ["আমাদের সাথে যুক্ত হোন", "taqwa-touch-foundation.github.io/site"])
     img.save(path, "PNG", optimize=True)
 
 # ---------------------------------------------------------------- Poster 2: ডোনেশন
@@ -141,9 +141,9 @@ def poster_donate(path):
     img = rrect(img, [pad, 890, W - pad, 1120], MINT, 28)
     d = ImageDraw.Draw(img)
     d.text((pad + 36, 924), "সহজে পাঠানোর উপায়", font=font(B, 34), fill=DARK)
-    d.text((pad + 36, 986), "বিকাশ / নগদ / রকেট :  ০১৭XX-XXXXXX", font=font(S, 30), fill=DARK)
-    d.text((pad + 36, 1036), "ব্যাংক :  তাকওয়া টাচ ফাউন্ডেশন • [A/C নম্বর]", font=font(R, 27), fill=(52, 88, 84))
-    footer_bar(img, d, W, H, pad, ["ডোনেট করুন — হিসাব প্রকাশ্য", "প্রতি মাসে আয়-ব্যয়ের রিপোর্ট"])
+    d.text((pad + 36, 986), "বিকাশ / নগদ / রকেট :  ০১৬০৭-২১৫৪২১", font=font(S, 30), fill=DARK)
+    d.text((pad + 36, 1036), "ঠিকানা : গোলাপনগর, ভেড়ামারা, কুষ্টিয়া", font=font(R, 27), fill=(52, 88, 84))
+    footer_bar(img, d, W, H, pad, ["ডোনেট করুন — হিসাব প্রকাশ্য", "ওয়েবসাইটে প্রতি মাসের রিপোর্ট"])
     img.save(path, "PNG", optimize=True)
 
 # ---------------------------------------------------------------- Poster 3: খাদ্য/শীতবস্ত্র ক্যাম্পেইন
@@ -172,7 +172,7 @@ def poster_campaign(path):
     d.rounded_rectangle([pad + 34, py + 92, pad + 34 + int((W - 2 * pad - 68) * .24), py + 122], radius=15, fill=TEAL)
     d.text((pad + 34, py + 140), "এই মুহূর্তে যা প্রয়োজন: কম্বল, গরম কাপড়, চাল-ডাল-তেল", font=font(R, 26), fill=(94, 116, 120))
 
-    footer_bar(img, d, W, H, pad, ["সহযোগিতা পাঠানোর নম্বর", "বিকাশ / নগদ : ০১৭XX-XXXXXX"])
+    footer_bar(img, d, W, H, pad, ["সহযোগিতা পাঠানোর নম্বর", "বিকাশ / নগদ : ০১৬০৭-২১৫৪২১"])
     img.save(path, "PNG", optimize=True)
 
 # ---------------------------------------------------------------- Profile + cover
@@ -184,7 +184,7 @@ def logo_mark(size=512):
     d.line([s * .5, s * .2, s * .5, s * .62], fill=AMBER, width=int(s * .07))
     d.line([s * .29, s * .41, s * .71, s * .41], fill=AMBER, width=int(s * .07))
     d.arc([s * .28, s * .34, s * .72, s * .72], start=20, end=160, fill=WHITE, width=int(s * .05))
-    d.text((s * .5, s * .795), "তাকওয়া টাচ", font=font(S, int(s * .075)), fill=WHITE, anchor="mm")
+    d.text((s * .5, s * .795), "তাকওয়া টাচ", font=font(S, int(s * .072)), fill=WHITE, anchor="mm")
     return img
 
 
@@ -203,10 +203,11 @@ def cover(path):
     img.paste(logo, (90, 150))
     d = ImageDraw.Draw(img)
     d.text((470, 210), "তাকওয়া টাচ ফাউন্ডেশন", font=font(B, 86), fill=WHITE, anchor="lm")
-    d.text((470, 300), "মানবতার সেবায়, তাকওয়ার ছোঁয়ায়", font=font(S, 46), fill=AMBER_L, anchor="lm")
-    d.text((470, 372), "শিক্ষা • খাদ্য • চিকিৎসা • রক্তদান • শীতবস্ত্র", font=font(R, 34), fill=(200, 232, 226), anchor="lm")
-    d.rounded_rectangle([470, 430, 470 + 420, 430 + 66], radius=33, fill=WHITE)
-    d.text((470 + 210, 463), "সদস্য হোন • ডোনেট করুন", font=font(S, 30), fill=DARK, anchor="mm")
+    d.text((470, 292), "তাকওয়ার ছোঁয়ায়, বদলে যাক জীবন ও সমাজ", font=font(S, 44), fill=AMBER_L, anchor="lm")
+    d.text((470, 356), "শিক্ষা • খাদ্য • চিকিৎসা • রক্তদান • শীতবস্ত্র", font=font(R, 32), fill=(200, 232, 226), anchor="lm")
+    d.rounded_rectangle([470, 400, 470 + 400, 400 + 62], radius=31, fill=WHITE)
+    d.text((470 + 200, 431), "সদস্য হোন • ডোনেট করুন", font=font(S, 29), fill=DARK, anchor="mm")
+    d.text((470, 512), "গোলাপনগর, ভেড়ামারা, কুষ্টিয়া  •  হটলাইন : ০১৬০৭-২১৫৪২১", font=font(R, 28), fill=(214, 240, 236), anchor="lm")
     img.save(path, "PNG", optimize=True)
 
 

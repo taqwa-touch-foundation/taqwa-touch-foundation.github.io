@@ -2,6 +2,16 @@
 
 লক্ষ্য: ৩০ দিনে অন্তত **৫,০০০ মানুষের কাছে** ফাউন্ডেশনের পরিচয় পৌঁছানো, **১০০+ সদস্য/স্বেচ্ছাসেবক** নিবন্ধন এবং প্রথম **ক্যাম্পেইনে তহবিল সংগ্রহ**।
 
+| | |
+|---|---|
+| 🌐 ওয়েবসাইট | https://taqwa-touch-foundation.github.io/site/ |
+| 👍 ফেসবুক পেজ | https://www.facebook.com/taqwatouchfoundation |
+| 📸 ইনস্টাগ্রাম | https://www.instagram.com/taqwatouch |
+| 📞 হটলাইন / WhatsApp | ০১৬০৭-২১৫৪২১ |
+| ✉️ ইমেইল | taqwatouchfoundation@gmail.com |
+| 📍 ঠিকানা | গোলাপনগর, ভেড়ামারা, কুষ্টিয়া |
+| 🎯 স্লোগান | তাকওয়ার ছোঁয়ায়, বদলে যাক জীবন ও সমাজ (Touch of Taqwa, Change in Life & Society) |
+
 ---
 
 ## ধাপ ১ — ভিত তৈরি (দিন ১–৩)
