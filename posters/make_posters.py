@@ -111,7 +111,7 @@ def poster_join(path):
         d.ellipse([pad + 34, yy - 17, pad + 68, yy + 17], fill=MINT)
         draw_check(d, pad + 51, yy, 30, TEAL, 5)
         d.text((pad + 88, yy), it, font=font(S, 33), fill=DARK, anchor="lm")
-    footer_bar(img, d, W, H, pad, ["আমাদের সাথে যুক্ত হোন", "taqwa-touch-foundation.github.io/site"])
+    footer_bar(img, d, W, H, pad, ["আমাদের সাথে যুক্ত হোন", "taqwa-touch-foundation.github.io"])
     img.save(path, "PNG", optimize=True)
 
 # ---------------------------------------------------------------- Poster 2: ডোনেশন
@@ -175,7 +175,7 @@ def poster_campaign(path):
         draw_check(d, pad + 50, yy, 28, TEAL, 4)
         d.text((pad + 86, yy), it, font=font(S, 30), fill=DARK, anchor="lm")
 
-    footer_bar(img, d, W, H, pad, ["সহযোগিতা পাঠানোর নম্বর (নগদ)", "০১৬০৭-২১৫৪২১  •  taqwa-touch-foundation.github.io/site"])
+    footer_bar(img, d, W, H, pad, ["সহযোগিতা পাঠানোর নম্বর (নগদ)", "০১৬০৭-২১৫৪২১  •  taqwa-touch-foundation.github.io"])
     img.save(path, "PNG", optimize=True)
 
 # ---------------------------------------------------------------- Profile + cover

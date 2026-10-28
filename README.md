@@ -2,7 +2,7 @@
 
 > **Taqwa Touch Foundation** — মানবতার সেবায়, তাকওয়ার ছোঁয়ায়।
 > 
-**লাইভ:** https://taqwa-touch-foundation.github.io/site/
+**লাইভ:** https://taqwa-touch-foundation.github.io/
 
 ---
 
@@ -18,10 +18,10 @@
 | ইমেইল | taqwatouchfoundation@gmail.com |
 | ফেসবুক | https://www.facebook.com/taqwatouchfoundation |
 | ইনস্টাগ্রাম | @taqwatouch |
-| ওয়েবসাইট | https://taqwa-touch-foundation.github.io/site/ |
+| ওয়েবসাইট | https://taqwa-touch-foundation.github.io/ |
 | ব্যাংক অ্যাকাউন্ট | নেই — সাইটে "নগদেই পাঠান" লেখা আছে |
 
- https://taqwa-touch-foundation.github.io/site/
+ https://taqwa-touch-foundation.github.io/
 
 
 

@@ -4,7 +4,7 @@
 
 ## 📌 আমাদের তথ্য (সব পোস্টে ব্যবহারের জন্য)
 
-> 🌐 ওয়েবসাইট: https://taqwa-touch-foundation.github.io/site/
+> 🌐 ওয়েবসাইট: https://taqwa-touch-foundation.github.io/
 > 💚 সহযোগিতা (শুধু নগদ): **০১৬০৭-২১৫৪২১**
 > 📞 হটলাইন / WhatsApp: **০১৬০৭-২১৫৪২১** | ✉️ taqwatouchfoundation@gmail.com
 > 📍 গোলাপনগর, ভেড়ামারা, কুষ্টিয়া | 👍 facebook.com/taqwatouchfoundation | 📸 @taqwatouch
@@ -31,7 +31,7 @@
 
 আপনার সামর্থ্য অনুযায়ী পাশে দাঁড়ান — সময় হোক, শ্রম হোক, দোয়া হোক। 🤲
 💚 সহযোগিতা (শুধু নগদ): ০১৬০৭-২১৫৪২১
-👉 বিস্তারিত: https://taqwa-touch-foundation.github.io/site/
+👉 বিস্তারিত: https://taqwa-touch-foundation.github.io/
 
 #তাকওয়াটাচফাউন্ডেশন #গোলাপনগর #ভেড়ামারা #কুষ্টিয়া #যুব_উদ্যোগ #সামাজিক_সেবা #দান
 
@@ -44,7 +44,7 @@
 
 আমরা কারো প্রশংসা চাই না, চাই সবাই যেন নির্বিঘ্নে চলাচল করতে পারে।
 আপনার এলাকার এমন কাজ আছে? জানান — আমরা হাত দেব ইনশাআল্লাহ। 🤝
-📞 ০১৬০৭-২১৫৪২১ | 🌐 https://taqwa-touch-foundation.github.io/site/
+📞 ০১৬০৭-২১৫৪২১ | 🌐 https://taqwa-touch-foundation.github.io/
 
 ---
 
@@ -64,7 +64,7 @@
 আজ আমরা [রাস্তা/বাজার/ড্রেন]-এর জমে থাকা ময়লা সরিয়েছি এবং ড্রেন পরিষ্কার করেছি — যাতে বর্ষায় পানি না জমে, ডেঙ্গু-মশার ভয় না বাড়ে।
 
 এই কাজ পুরো এলাকার জন্য। আপনিও চাইলে একদিন খাটতে পারেন — হাতে-কলমে সেবা করার আনন্দটাই আলাদা। 👐
-👉 https://taqwa-touch-foundation.github.io/site/
+👉 https://taqwa-touch-foundation.github.io/
 
 ---
 
@@ -100,7 +100,7 @@
 
 ছাত্র, চাকরিজীবী, ব্যবসায়ী — সবাই স্বাগতম। বেতন নেই, কিন্তু যে আনন্দ আছে সেটা টাকায় কেনা যায় না। 🤝
 📍 গোলাপনগর, ভেড়ামারা, কুষ্টিয়া | 📞 ০১৬০৭-২১৫৪২১
-👉 ফর্ম: https://taqwa-touch-foundation.github.io/site/#join
+👉 ফর্ম: https://taqwa-touch-foundation.github.io/#join
 
 ---
 
@@ -136,4 +136,4 @@
 📚 শিক্ষা ও বৃত্তি | 🩸 রক্তদাতা নেটওয়ার্ক | 🩺 ফ্রি মেডিকেল ক্যাম্প | 🧥 শীতবস্ত্র বিতরণ | 🧵 কারিগরি প্রশিক্ষণ | 🌳 বৃক্ষরোপণ
 
 পাশে দাঁড়ালে আরও বড় কাজ সম্ভব — আর সেই কাজগুলো যেন সবার সামনে হয়েছে, সেটাও আমরা দেখাব ইনশাআল্লাহ।
-📞 ০১৬০৭-২১৫৪২১ • ✉️ taqwatouchfoundation@gmail.com • 🌐 https://taqwa-touch-foundation.github.io/site/
+📞 ০১৬০৭-২১৫৪২১ • ✉️ taqwatouchfoundation@gmail.com • 🌐 https://taqwa-touch-foundation.github.io/

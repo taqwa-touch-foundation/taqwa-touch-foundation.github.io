@@ -5,7 +5,7 @@
 
 | | |
 |---|---|
-| 🌐 ওয়েবসাইট | https://taqwa-touch-foundation.github.io/site/ |
+| 🌐 ওয়েবসাইট | https://taqwa-touch-foundation.github.io/ |
 | 👍 ফেসবুক পেজ | https://www.facebook.com/taqwatouchfoundation |
 | 📸 ইনস্টাগ্রাম | https://www.instagram.com/taqwatouch |
 | 💚 সহযোগিতা (শুধু নগদ) | ০১৬০৭-২১৫৪২১ (একই নম্বরে WhatsApp ও হটলাইন) |
