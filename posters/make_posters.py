@@ -126,9 +126,9 @@ def poster_donate(path):
 
     d.text((pad, 300), "আপনার অল্প টাকায়", font=font(B, 52), fill=(190, 228, 222))
     d.text((pad, 372), "এক বেলা খাবার,", font=font(B, 84), fill=WHITE)
-    d.text((pad, 466), "একজনের পড়ার সুযোগ", font=font(B, 62), fill=AMBER_L)
+    d.text((pad, 466), "একজনের চিকিৎসার সহায়তা", font=font(B, 62), fill=AMBER_L)
 
-    cards = [("১০০৳", "একবেলা খাবার"), ("৫০০৳", "এক পরিবারের রেশন"), ("১০০০৳", "শিক্ষার্থীর শিক্ষা-উপকরণ")]
+    cards = [("১০০৳", "একবেলা খাবারের ব্যবস্থা"), ("৫০০৳", "অসহায় পরিবারের সহায়তা"), ("১০০০৳", "ঔষধ ও চিকিৎসায় সহায়তা")]
     cy = 620
     for i, (amt, lbl) in enumerate(cards):
         x0 = pad + i * 318
@@ -140,8 +140,8 @@ def poster_donate(path):
 
     img = rrect(img, [pad, 890, W - pad, 1120], MINT, 28)
     d = ImageDraw.Draw(img)
-    d.text((pad + 36, 924), "সহজে পাঠানোর উপায়", font=font(B, 34), fill=DARK)
-    d.text((pad + 36, 986), "বিকাশ / নগদ / রকেট :  ০১৬০৭-২১৫৪২১", font=font(S, 30), fill=DARK)
+    d.text((pad + 36, 924), "সহযোগিতা পাঠানোর উপায় (শুধু নগদ)", font=font(B, 34), fill=DARK)
+    d.text((pad + 36, 986), "নগদ (Nagad) :  ০১৬০৭-২১৫৪২১", font=font(S, 30), fill=DARK)
     d.text((pad + 36, 1036), "ঠিকানা : গোলাপনগর, ভেড়ামারা, কুষ্টিয়া", font=font(R, 27), fill=(52, 88, 84))
     footer_bar(img, d, W, H, pad, ["ডোনেট করুন — হিসাব প্রকাশ্য", "ওয়েবসাইটে প্রতি মাসের রিপোর্ট"])
     img.save(path, "PNG", optimize=True)
@@ -156,23 +156,26 @@ def poster_campaign(path):
     d = ImageDraw.Draw(img)
     header(img, d, "চলমান কর্মসূচি", W, pad, light=False)
 
-    d.text((pad, 300), "শীতবস্ত্র ও", font=font(B, 66), fill=DARK)
-    d.text((pad, 380), "খাদ্য সহায়তা", font=font(B, 92), fill=TEAL)
-    d.rounded_rectangle([pad, 505, pad + 160, 519], radius=7, fill=AMBER)
-    d.multiline_text((pad, 560),
-        "এই শীতে ৫০০ পরিবারের পাশে\nদাঁড়াতে চাই আমরা।\nআপনার সামর্থ্য অনুযায়ী\nসহযোগিতা করুন।",
-        font=font(R, 38), fill=(51, 71, 74), spacing=14)
+    d.text((pad, 300), "রাস্তাঘাট উন্নয়ন ও", font=font(B, 56), fill=DARK)
+    d.text((pad, 372), "সামাজিক সেবা", font=font(B, 84), fill=TEAL)
+    d.rounded_rectangle([pad, 492, pad + 160, 506], radius=7, fill=AMBER)
+    d.multiline_text((pad, 548),
+        "আমরা সবে যাত্রা শুরু করেছি —\nছোট ছোট কাজ দিয়ে আমাদের এলাকাকে\nবদলে দিতে চাই ইনশাআল্লাহ।\nআপনার সহযোগিতাই আমাদের শক্তি।",
+        font=font(R, 36), fill=(51, 71, 74), spacing=12)
 
-    # progress
-    py = 800
-    img = rrect(img, [pad, py, W - pad, py + 200], WHITE, 26)
+    # চলমান কাজের কার্ড
+    py = 810
+    img = rrect(img, [pad, py, W - pad, py + 290], WHITE, 26)
     d = ImageDraw.Draw(img)
-    d.text((pad + 34, py + 34), "লক্ষ্য : ৫০০ কম্বল  •  সংগ্রহ : ১২০ (২৪%)", font=font(S, 30), fill=DARK)
-    d.rounded_rectangle([pad + 34, py + 92, W - pad - 34, py + 122], radius=15, fill=(226, 237, 234))
-    d.rounded_rectangle([pad + 34, py + 92, pad + 34 + int((W - 2 * pad - 68) * .24), py + 122], radius=15, fill=TEAL)
-    d.text((pad + 34, py + 140), "এই মুহূর্তে যা প্রয়োজন: কম্বল, গরম কাপড়, চাল-ডাল-তেল", font=font(R, 26), fill=(94, 116, 120))
+    d.text((pad + 34, py + 28), "চলমান কাজ", font=font(B, 34), fill=DARK)
+    items = ["রাস্তাঘাট মেরামত, ভরাট ও চলাচল উপযোগ্য করা", "গরীব ও অসহায় পরিবারের পাশে দাঁড়ানো", "পরিচ্ছন্নতা, ঔষধ সহায়তা ও সচেতনতা"]
+    for i, it in enumerate(items):
+        yy = py + 96 + i * 62
+        d.ellipse([pad + 34, yy - 15, pad + 66, yy + 15], fill=MINT)
+        draw_check(d, pad + 50, yy, 28, TEAL, 4)
+        d.text((pad + 86, yy), it, font=font(S, 30), fill=DARK, anchor="lm")
 
-    footer_bar(img, d, W, H, pad, ["সহযোগিতা পাঠানোর নম্বর", "বিকাশ / নগদ : ০১৬০৭-২১৫৪২১"])
+    footer_bar(img, d, W, H, pad, ["সহযোগিতা পাঠানোর নম্বর (নগদ)", "০১৬০৭-২১৫৪২১  •  taqwa-touch-foundation.github.io/site"])
     img.save(path, "PNG", optimize=True)
 
 # ---------------------------------------------------------------- Profile + cover
@@ -204,7 +207,7 @@ def cover(path):
     d = ImageDraw.Draw(img)
     d.text((470, 210), "তাকওয়া টাচ ফাউন্ডেশন", font=font(B, 86), fill=WHITE, anchor="lm")
     d.text((470, 292), "তাকওয়ার ছোঁয়ায়, বদলে যাক জীবন ও সমাজ", font=font(S, 44), fill=AMBER_L, anchor="lm")
-    d.text((470, 356), "শিক্ষা • খাদ্য • চিকিৎসা • রক্তদান • শীতবস্ত্র", font=font(R, 32), fill=(200, 232, 226), anchor="lm")
+    d.text((470, 356), "রাস্তাঘাট উন্নয়ন • অসহায়দের সহায়তা • পরিচ্ছন্নতা • সচেতনতা", font=font(R, 32), fill=(200, 232, 226), anchor="lm")
     d.rounded_rectangle([470, 400, 470 + 400, 400 + 62], radius=31, fill=WHITE)
     d.text((470 + 200, 431), "সদস্য হোন • ডোনেট করুন", font=font(S, 29), fill=DARK, anchor="mm")
     d.text((470, 512), "গোলাপনগর, ভেড়ামারা, কুষ্টিয়া  •  হটলাইন : ০১৬০৭-২১৫৪২১", font=font(R, 28), fill=(214, 240, 236), anchor="lm")
@@ -216,7 +219,7 @@ if __name__ == "__main__":
     jobs = [
         (poster_join, os.path.join(out, "poster-01-svechchasebok-aahban.png")),
         (poster_donate, os.path.join(out, "poster-02-donate.png")),
-        (poster_campaign, os.path.join(out, "poster-03-shitbostro-campaign.png")),
+        (poster_campaign, os.path.join(out, "poster-03-samajik-seba-campaign.png")),
         (profile_pic, os.path.join(out, "facebook-profile-512.png")),
         (cover, os.path.join(out, "facebook-cover-1640x624.png")),
     ]
